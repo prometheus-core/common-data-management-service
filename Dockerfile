@@ -1,4 +1,4 @@
-# Docker file for PROMETHEUS FILE MANAGER service
+# Docker file for PROMETHEUS FILE MANAGER servicE
 FROM openjdk:8-jre-alpine
 EXPOSE  8443
 ADD /target/petstore-1.0.1.jar server.jar
