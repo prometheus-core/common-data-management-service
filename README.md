@@ -7,7 +7,22 @@
 
 [Commons VFS](http://commons.apache.org/proper/commons-vfs/) provides a single API for accessing various different file systems. It presents a uniform view of the files from various different sources.
 
-Project "commons-vfs2-cifs" is a SMB/CIFS provider for Commons VFS.
+
+
+## Build Status
+
+[travis-home]: https://travis-ci.org/
+[travis-msgpack-tools]: https://travis-ci.org/prometheus-core/common-file-management-service
+
+[branch-master]: https://github.com/prometheus-core/common-file-management-service/tree/master
+
+<!-- we use some deprecated HTML attributes here to get these stupid badges to line up properly -->
+
+| Branch        |  [CI Build][travis-home]           | Coverage           |
+| ------------- |:-------------:|:-------------:|
+| [master] [branch-master]     | [![Build Status](https://travis-ci.org/prometheus-core/common-file-management-service.svg?branch=master)](https://travis-ci.org/prometheus-core/common-file-management-service) | [![codecov](https://codecov.io/gh/prometheus-core/common-file-management-service/branch/master/graph/badge.svg)](https://codecov.io/gh/prometheus-core/common-file-management-service/branch/master) |
+
+
 # OpenAPI 3.0 Light Java Server
 
 ## Start server
