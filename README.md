@@ -23,8 +23,6 @@
 | [master] [branch-master]     | [![Build Status](https://travis-ci.org/prometheus-core/common-file-management-service.svg?branch=master)](https://travis-ci.org/prometheus-core/common-file-management-service) | [![codecov](https://codecov.io/gh/prometheus-core/common-file-management-service/branch/master/graph/badge.svg)](https://codecov.io/gh/prometheus-core/common-file-management-service/branch/master) |
 
 
-# OpenAPI 3.0 Light Java Server
-
 ## Start server
 
 Run with
