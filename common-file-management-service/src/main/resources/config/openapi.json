@@ -6,7 +6,7 @@
     }
   ],"openapi": "3.0.0","paths":{"/pets": {
       "get": {
-        "summary": "List all pets",
+        "summary": "List all tasks for Archiving ",
         "operationId": "listPets",
         "tags": [
           "pets"
