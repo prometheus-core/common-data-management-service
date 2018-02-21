@@ -9,12 +9,9 @@ public class ArchiveManager
     extends AbstractArchiveProvider
 implements ArchiveProvider{
 
+
     @Override
     public Long createArchiveRecord(ArchiveRecord archiveRecord) {
-
-
-
-
         return null;
     }
 
@@ -29,7 +26,17 @@ implements ArchiveProvider{
     }
 
     @Override
-    public ArchiveRecord getById() {
+    public ArchiveRecord getById(long id) {
+        return null;
+    }
+
+    @Override
+    public GenericResult processArchiveRecord(ArchiveRecord archiveRecord) {
+        return null;
+    }
+
+    @Override
+    public GenericResult processById(long id) {
         return null;
     }
 
@@ -40,16 +47,6 @@ implements ArchiveProvider{
 
     @Override
     public List<GenericResult> processAll() {
-        return null;
-    }
-
-    @Override
-    public GenericResult processById(long id) {
-        return null;
-    }
-
-    @Override
-    public GenericResult processArchiveRecord(ArchiveRecord archiveRecord) {
         return null;
     }
 }
