@@ -1,3 +1,6 @@
+![Logo](https://github.com/prometheus-core/common-file-management-service/blob/master/docs/_images/prometheus-core-logo.png)
+
+
 # Common File Management Service
 
 [![License](http://img.shields.io/badge/License-Apache%2C%20Version%202.0-blue.svg?style=plastic)](http://opensource.org/licenses/Apache-2.0)
