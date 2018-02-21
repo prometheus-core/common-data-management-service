@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.handler;
+package org.prometheus_core.service.file_management.handler;
 
 import com.networknt.exception.ApiException;
 import com.networknt.exception.ClientException;

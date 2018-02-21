@@ -1,4 +1,4 @@
-package org.prometheus_core.service.common_file_management_service.persitency;
+package org.prometheus_core.service.file_management.persitency;
 
 
 /**

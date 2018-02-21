@@ -1,4 +1,4 @@
-package org.prometheus_core.service.common_file_management_service.model.endpoint;
+package org.prometheus_core.service.file_management.model.endpoint;
 
 public class LocalEndpoint {
 

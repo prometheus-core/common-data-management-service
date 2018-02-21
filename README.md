@@ -1,12 +1,19 @@
 # Common File Management Service
 
-[![Build Status](http://img.shields.io/travis/vbauer/commons-vfs2-cifs.svg?style=flat)](https://travis-ci.org/vbauer/commons-vfs2-cifs)
-[![License](http://img.shields.io/badge/License-Apache%2C%20Version%202.0-blue.svg?style=flat)](http://opensource.org/licenses/Apache-2.0)
-[![Maven](https://img.shields.io/github/tag/vbauer/commons-vfs2-cifs.svg?label=maven)](https://jitpack.io/#vbauer/commons-vfs2-cifs)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/f3f8cb0b44c84349b0f56e13cae6832f)](https://www.codacy.com/app/bauer-vlad/commons-vfs2-cifs)
+[![License](http://img.shields.io/badge/License-Apache%2C%20Version%202.0-blue.svg?style=plastic)](http://opensource.org/licenses/Apache-2.0)
+[![license](https://img.shields.io/github/license/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
+[![Travis](https://img.shields.io/travis/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
+[![Github All Releases](https://img.shields.io/github/downloads/prometheus-core/common-file-management-service/total.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
+[![GitHub issues](https://img.shields.io/github/issues/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
 
-[Commons VFS](http://commons.apache.org/proper/commons-vfs/) provides a single API for accessing various different file systems. It presents a uniform view of the files from various different sources.
+[![Codacy grade](https://img.shields.io/codacy/grade/e7dc9ed202da4839aa73a8f4f5c65b38.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
+[![Codacy coverage](https://img.shields.io/codacy/coverage/e7dc9ed202da4839aa73a8f4f5c65b38.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
 
+
+[![David](https://img.shields.io/david/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
+[![David](https://img.shields.io/david/dev/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
+[![David](https://img.shields.io/david/optional/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
+[![David](https://img.shields.io/david/peer/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
 
 
 ## Build Status

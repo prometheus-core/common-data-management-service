@@ -1,11 +1,11 @@
-package org.prometheus_core.service.common_file_management_service.model.management;
+package org.prometheus_core.service.file_management.model.management;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import org.prometheus_core.service.common_file_management_service.model.config.LocalArchiveConfiguration;
-import org.prometheus_core.service.common_file_management_service.model.endpoint.DataEndpoint;
+import org.prometheus_core.service.file_management.model.config.LocalArchiveConfiguration;
+import org.prometheus_core.service.file_management.model.endpoint.DataEndpoint;
 
 import javax.persistence.Entity;
 import java.util.List;
@@ -59,7 +59,7 @@ public class ArchiveRecord {
      */
     private List<Object> source;
 
-    private FileMask sourceObjectMask;
+    private ObjectMask sourceObjectMask;
 
     /**
      * Number representing size of directory
@@ -83,7 +83,7 @@ public class ArchiveRecord {
     private DataEndpoint targetEndpoint;
     private String targetRoot;
     private String target;
-    private FileMask targetFileMask;
+    private ObjectMask targetFileMask;
     /**
      * usually will be null; but is used for exceptions
      *

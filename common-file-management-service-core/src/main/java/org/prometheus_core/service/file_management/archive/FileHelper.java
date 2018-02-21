@@ -1,4 +1,4 @@
-package org.prometheus_core.service.common_file_management_service.archive;
+package org.prometheus_core.service.file_management.archive;
 
 import java.io.File;
 import java.util.List;

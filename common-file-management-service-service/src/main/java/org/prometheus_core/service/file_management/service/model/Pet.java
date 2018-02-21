@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.service.model;
+package org.prometheus_core.service.file_management.service.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -134,7 +134,7 @@ public class Pet {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Pet Pet = (org.prometheus_core.service.common_file_management_service.service.model.Pet) o;
+        Pet Pet = (org.prometheus_core.service.file_management.service.model.Pet) o;
 
         return Objects.equals(name, Pet.name) &&
         Objects.equals(id, Pet.id) &&

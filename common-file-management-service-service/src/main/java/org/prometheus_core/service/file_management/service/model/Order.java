@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.service.model;
+package org.prometheus_core.service.file_management.service.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -134,7 +134,7 @@ public class Order {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Order Order = (org.prometheus_core.service.common_file_management_service.service.model.Order) o;
+        Order Order = (org.prometheus_core.service.file_management.service.model.Order) o;
 
         return Objects.equals(id, Order.id) &&
         Objects.equals(petId, Order.petId) &&

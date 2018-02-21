@@ -1,4 +1,4 @@
-package org.prometheus_core.service.common_file_management_service.model.result;
+package org.prometheus_core.service.file_management.model.result;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.service.model;
+package org.prometheus_core.service.file_management.service.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -48,7 +48,7 @@ public class Error {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Error Error = (org.prometheus_core.service.common_file_management_service.service.model.Error) o;
+        Error Error = (org.prometheus_core.service.file_management.service.model.Error) o;
 
         return Objects.equals(message, Error.message) &&
         

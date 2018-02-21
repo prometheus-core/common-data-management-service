@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.service.model;
+package org.prometheus_core.service.file_management.service.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -61,7 +61,7 @@ public class ApiResponse {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        ApiResponse ApiResponse = (org.prometheus_core.service.common_file_management_service.service.model.ApiResponse) o;
+        ApiResponse ApiResponse = (org.prometheus_core.service.file_management.service.model.ApiResponse) o;
 
         return Objects.equals(type, ApiResponse.type) &&
         Objects.equals(message, ApiResponse.message) &&

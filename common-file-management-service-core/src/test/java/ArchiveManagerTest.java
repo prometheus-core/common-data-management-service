@@ -1,5 +1,5 @@
-import org.prometheus_core.service.common_file_management_service.model.management.TimeUnit;
-import org.prometheus_core.service.common_file_management_service.model.endpoint.Credential;
+import org.prometheus_core.service.file_management.model.management.TimeUnit;
+import org.prometheus_core.service.file_management.model.endpoint.Credential;
 
 import java.util.ArrayList;
 import java.util.List;

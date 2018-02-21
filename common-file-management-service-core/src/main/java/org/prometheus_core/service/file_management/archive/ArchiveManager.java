@@ -1,7 +1,7 @@
-package org.prometheus_core.service.common_file_management_service.archive;
+package org.prometheus_core.service.file_management.archive;
 
-import org.prometheus_core.service.common_file_management_service.model.management.ArchiveRecord;
-import org.prometheus_core.service.common_file_management_service.model.result.GenericResult;
+import org.prometheus_core.service.file_management.model.management.ArchiveRecord;
+import org.prometheus_core.service.file_management.model.result.GenericResult;
 
 import java.util.List;
 

@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.service.model;
+package org.prometheus_core.service.file_management.service.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -48,7 +48,7 @@ public class Tag {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Tag Tag = (org.prometheus_core.service.common_file_management_service.service.model.Tag) o;
+        Tag Tag = (org.prometheus_core.service.file_management.service.model.Tag) o;
 
         return Objects.equals(name, Tag.name) &&
         

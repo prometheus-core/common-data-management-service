@@ -1,16 +1,45 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>5</version>
     </parent>
+
+
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.networknt</groupId>
-    <artifactId>petstore</artifactId>
-    <packaging>jar</packaging>
-    <name>petstore</name>
+    <groupId>org.prometheus-core.service</groupId>
+    <artifactId>common-file-management-service</artifactId>
+    <packaging>pom</packaging>
+    <name>PROMETHEUS FILE MANAGEMENT SERVICE</name>
     <version>1.0.1</version>
+
+
+    <url>http://prometheus-core.org</url>
+    <description>High performance service providing any kind of common data manipulation accross multiple
+    endpoind protocols including CIFS, FTP, , FTPS, SFTP, etc.</description>
+
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License, version 2.1</name>
+            <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git@github.com:prometheus-core/common-file-management-service.git</connection>
+        <developerConnection>scm:git:git@github.com:prometheus-core/common-file-management-service.git</developerConnection>
+        <url>https://github.com/prometheus-core/common-file-management-service</url>
+    </scm>
+
+    <modules>
+        <module>common-file-management-service-core</module>
+        <module>common-file-management-service-service</module>
+        <module>common-file-management-service-ui</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -29,11 +58,6 @@
         <version.undertow>1.4.20.Final</version.undertow>
         <version.json-schema-validator>0.1.10</version.json-schema-validator>
         <version.fastscanner>2.7.0</version.fastscanner>
-        
-        
-        
-        
-        
         <versions.maven-version>2.4</versions.maven-version>
     </properties>
 
@@ -311,6 +335,40 @@
             </plugin>
 
             <!-- end Google error-proce compiles -->
+            <!-- Java code coverage report -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.9</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <formats>
+                        <format>html</format>
+                        <format>xml</format>
+                    </formats>
+                    <check />
+                </configuration>
+            </plugin>
+
         </plugins>
 
         <pluginManagement>

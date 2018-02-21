@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.service;
+package org.prometheus_core.service.file_management.service;
 
 import com.networknt.health.HealthGetHandler;
 import com.networknt.info.ServerInfoGetHandler;
@@ -7,10 +7,10 @@ import com.networknt.server.HandlerProvider;
 import io.undertow.Handlers;
 import io.undertow.server.HttpHandler;
 import io.undertow.util.Methods;
-import org.prometheus_core.service.common_file_management_service.service.handler.PetsGetHandler;
-import org.prometheus_core.service.common_file_management_service.service.handler.PetsPetIdDeleteHandler;
-import org.prometheus_core.service.common_file_management_service.service.handler.PetsPetIdGetHandler;
-import org.prometheus_core.service.common_file_management_service.service.handler.PetsPostHandler;
+import org.prometheus_core.service.file_management.service.handler.PetsGetHandler;
+import org.prometheus_core.service.file_management.service.handler.PetsPetIdDeleteHandler;
+import org.prometheus_core.service.file_management.service.handler.PetsPetIdGetHandler;
+import org.prometheus_core.service.file_management.service.handler.PetsPostHandler;
 
 
 public class PathHandlerProvider implements HandlerProvider {

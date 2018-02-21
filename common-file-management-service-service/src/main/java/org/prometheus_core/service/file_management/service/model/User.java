@@ -1,5 +1,5 @@
 
-package org.prometheus_core.service.common_file_management_service.service.model;
+package org.prometheus_core.service.file_management.service.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -126,7 +126,7 @@ public class User {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        User User = (org.prometheus_core.service.common_file_management_service.service.model.User) o;
+        User User = (org.prometheus_core.service.file_management.service.model.User) o;
 
         return Objects.equals(firstName, User.firstName) &&
         Objects.equals(lastName, User.lastName) &&
