@@ -1,7 +1,7 @@
 ![Logo](https://github.com/prometheus-core/common-file-management-service/blob/master/docs/_images/prometheus-core-logo.png)
 
 
-# Common File Management Service
+# Common Data Management Service
 
 [![license](https://img.shields.io/github/license/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
 [![Travis](https://img.shields.io/travis/prometheus-core/common-file-management-service.svg?style=plastic)](https://travis-ci.org/prometheus-core/common-file-management-service/branches)
