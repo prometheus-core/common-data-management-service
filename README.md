@@ -17,7 +17,7 @@
 [![David](https://img.shields.io/david/optional/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
 [![David](https://img.shields.io/david/peer/prometheus-core/common-file-management-service.svg?style=plastic)](https://github.com/prometheus-core/common-file-management-service)
 
-##Description
+## Description
 Generic approach to manage any kind of file system objects with support of multiple protocols or filesystems.
 
 The whole system is in the moment implemented as state of art microservice architecture meaning I follow following core patterns:
@@ -25,7 +25,7 @@ The whole system is in the moment implemented as state of art microservice archi
 - Sagas
 - CQRS
 
-##Features:
+## Features:
 - Supports common file system object manipulation operation: COPY, CREATE, DELETE, MOVE
 - These atomic operations can be mixed up to complex scenarios in kind of flow diagram to achieve any kind of goal
 - Supports multiple file systems and communication protocols: CIFS(Samba or Windows Share), FTP, FTPS, SFTP (More can and will be added in future)
