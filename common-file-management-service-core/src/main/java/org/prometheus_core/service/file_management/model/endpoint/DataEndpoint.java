@@ -4,4 +4,8 @@ public interface DataEndpoint {
 
     //public void connect();
 
+    void connect();
+
+    void listContent(String path);
+
 }

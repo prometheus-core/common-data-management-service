@@ -11,9 +11,9 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.prometheus-core.service</groupId>
-    <artifactId>common-file-management-service</artifactId>
+    <artifactId>common-data-management-service</artifactId>
     <packaging>pom</packaging>
-    <name>PROMETHEUS FILE MANAGEMENT SERVICE</name>
+    <name>Common Data Management Service</name>
     <version>1.0.1</version>
 
 

@@ -6,10 +6,11 @@ import lombok.Data;
 
 @Builder
 @Data
-public class Credential{
+public class Authentication{
 
     private String domain;
     private String userName;
     private String password;
+
 
 }
