@@ -1,10 +1,9 @@
-package org.prometheus.data.management.core.model.management;
+package org.prometheus.data.management.domain.management;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import org.prometheus.data.management.core.model.config.LocalArchiveConfiguration;
 import org.prometheus_core.service.file_management.model.config.LocalArchiveConfiguration;
 import org.prometheus_core.service.file_management.model.endpoint.DataEndpoint;
 

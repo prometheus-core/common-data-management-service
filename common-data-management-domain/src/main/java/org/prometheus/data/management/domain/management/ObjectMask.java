@@ -1,4 +1,4 @@
-package org.prometheus.data.management.core.model.management;
+package org.prometheus.data.management.domain.management;
 
 import java.util.ArrayList;
 import java.util.List;

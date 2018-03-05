@@ -1,6 +1,7 @@
-package org.prometheus.data.management.core.model.config;
+package org.prometheus.data.management.domain.config;
 
-import org.prometheus_core.service.file_management.model.management.TimeUnit;
+import org.prometheus.data.management.domain.management.TimeUnit;
+
 
 /**
  * R

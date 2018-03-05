@@ -1,4 +1,4 @@
-package org.prometheus.data.management.core.model.config;
+package org.prometheus.data.management.domain.config;
 
 
 /**

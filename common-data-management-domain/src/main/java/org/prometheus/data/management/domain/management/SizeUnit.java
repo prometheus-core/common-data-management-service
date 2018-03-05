@@ -1,4 +1,4 @@
-package org.prometheus.data.management.core.model.management;
+package org.prometheus.data.management.domain.management;
 
 public enum SizeUnit {
     KB,MB,GB,TB;

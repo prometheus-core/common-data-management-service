@@ -1,4 +1,4 @@
-package org.prometheus.data.management.core.model.result;
+package org.prometheus.data.management.domain.result;
 
 import lombok.Builder;
 import lombok.Data;
