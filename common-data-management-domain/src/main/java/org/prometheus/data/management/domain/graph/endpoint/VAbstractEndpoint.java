@@ -22,25 +22,19 @@ public abstract class VAbstractEndpoint extends AbstractVertexFrame {
     public abstract Protocol getProtocol();
 
     @Property("protocol")
-    public void setProtocol(Protocol protocol){setProperty("protocol",protocol);};
+    public abstract void setProtocol(Protocol protocol);
 
-    @Adjacency(label = "AUTHENTICATE_VIA")
-    public List<VAbstractAuthentication> getAuthenticateViaAuthentications(){
+    @Adjacency(label = "AUTHENTICATES_VIA")
+    public abstract List<VAbstractAuthentication> getAuthenticateViaAuthentications();
 
-    };
+    @Incidence(label = "AUTHENTICATES_VIA")
+    public abstract List<EAuthenticatesVia> getAuthenticatesVia();
 
-    @Incidence(label = "AUTHENTICATE_VIA")
-    public List<EAuthenticatesVia> getAuthenticatesVia(){
-        return traverse((v) -> v.outE("AUTHENTICATE_VIA")).toList(Knows.class);
-    };
-
-    @Incidence(label = "AUTHENTICATE_VIA")
-    public EAuthenticatesVia addAuthenticateVia(VAbstractEndpoint endpoint){
-        return addFramedEdge("AUTHENTICATE_VIA", endpoint, EAuthenticatesVia.class);
-    };
+    @Incidence(label = "AUTHENTICATES_VIA")
+    public abstract EAuthenticatesVia addAuthenticateVia(VAbstractAuthentication authentication);
 
     public List<? extends VAbstractEndpoint> getAuthenticationsWithUserNamesLadislav() {
-        return this.traverse(input -> input.out("AUTHENTICATE_VIA").has("userName", "Ladislav")).toList(VAbstractEndpoint.class);
+        return this.traverse(input -> input.out("AUTHENTICATES_VIA").has("userName", "Ladislav")).toList(VAbstractEndpoint.class);
     }
 
 }
