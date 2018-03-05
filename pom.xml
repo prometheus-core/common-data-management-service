@@ -11,7 +11,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.prometheus-core.service</groupId>
-    <artifactId>common-data-management-service</artifactId>
+    <artifactId>common-data-management</artifactId>
     <packaging>pom</packaging>
     <name>Common Data Management Service</name>
     <version>1.0.1</version>
@@ -36,9 +36,10 @@
     </scm>
 
     <modules>
-        <module>common-file-management-service-core</module>
-        <module>common-file-management-service-service</module>
-        <module>common-file-management-service-ui</module>
+        <module>common-data-management-domain</module>
+        <module>common-data-management-core</module>
+        <module>common-data-management-service</module>
+        <module>common-data-management-ui</module>
     </modules>
 
     <properties>
@@ -60,6 +61,21 @@
         <version.fastscanner>2.7.0</version.fastscanner>
         <versions.maven-version>2.4</versions.maven-version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.16</version>
+            </dependency>
+            <dependency>
+                <groupId>com.syncleus.ferma</groupId>
+                <artifactId>ferma</artifactId>
+                <version>3.2.1</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
