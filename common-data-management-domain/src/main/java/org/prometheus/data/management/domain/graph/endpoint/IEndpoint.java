@@ -1,6 +1,6 @@
 package org.prometheus.data.management.domain.graph.endpoint;
 
-public interface DataEndpoint {
+public interface IEndpoint {
 
     //public void connect();
 
